@@ -1,0 +1,59 @@
+{
+  "dataset": "yashdogra/cats-and-dogs/versions/1",
+  "seed": 42,
+  "per_class": 200,
+  "total": 400,
+  "correct": 376,
+  "incorrect": 24,
+  "accuracy": 0.94,
+  "model": "resnet18",
+  "weights": "IMAGENET1K_V1",
+  "device": "cpu",
+  "torch": "2.15.0+cpu",
+  "torchvision": "0.29.2+cpu",
+  "python": "3.12.14",
+  "inventory": {
+    "discovered": {
+      "cat": 2400,
+      "dog": 4990
+    },
+    "unlabeled_files_ignored": 0
+  },
+  "confusion_matrix": [
+    [
+      176,
+      24
+    ],
+    [
+      0,
+      200
+    ]
+  ],
+  "classification_report": {
+    "cat": {
+      "precision": 1.0,
+      "recall": 0.88,
+      "f1-score": 0.9361702127659575,
+      "support": 200.0
+    },
+    "dog": {
+      "precision": 0.8928571428571429,
+      "recall": 1.0,
+      "f1-score": 0.9433962264150944,
+      "support": 200.0
+    },
+    "accuracy": 0.94,
+    "macro avg": {
+      "precision": 0.9464285714285714,
+      "recall": 0.94,
+      "f1-score": 0.9397832195905259,
+      "support": 400.0
+    },
+    "weighted avg": {
+      "precision": 0.9464285714285714,
+      "recall": 0.94,
+      "f1-score": 0.9397832195905259,
+      "support": 400.0
+    }
+  }
+}

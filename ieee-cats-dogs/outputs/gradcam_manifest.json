@@ -1,0 +1,44 @@
+[
+  {
+    "image": "images/Sphynx_177.jpg",
+    "figure": "gradcam_01.png",
+    "true": "cat",
+    "predicted": "cat",
+    "zero_map": false
+  },
+  {
+    "image": "images/Birman_33.jpg",
+    "figure": "gradcam_02.png",
+    "true": "cat",
+    "predicted": "cat",
+    "zero_map": false
+  },
+  {
+    "image": "images/japanese_chin_77.jpg",
+    "figure": "gradcam_03.png",
+    "true": "dog",
+    "predicted": "dog",
+    "zero_map": false
+  },
+  {
+    "image": "images/samoyed_93.jpg",
+    "figure": "gradcam_04.png",
+    "true": "dog",
+    "predicted": "dog",
+    "zero_map": false
+  },
+  {
+    "image": "images/Sphynx_230.jpg",
+    "figure": "gradcam_05.png",
+    "true": "cat",
+    "predicted": "dog",
+    "zero_map": false
+  },
+  {
+    "image": "images/Sphynx_104.jpg",
+    "figure": "gradcam_06.png",
+    "true": "cat",
+    "predicted": "dog",
+    "zero_map": false
+  }
+]
